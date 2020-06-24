@@ -1,5 +1,5 @@
 {
-  "name": "erip/LDic",
+  "name": "erip/ldic",
   "description": "A lightweight dependency injection container for PHP.",
   "keywords": [
     "dependency injection"
