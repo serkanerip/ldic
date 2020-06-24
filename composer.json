@@ -1,0 +1,38 @@
+{
+  "name": "erip/LDic",
+  "description": "A lightweight dependency injection container for PHP.",
+  "keywords": [
+    "dependency injection"
+  ],
+  "homepage": "https://github.com/serkanerip/LDic",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Serkan ERİP",
+      "email": "serkanerip@gmail.com",
+      "homepage": "https://serkanerip.tech",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Erip\\LPHPDic\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Erip\\LPHPDic\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
